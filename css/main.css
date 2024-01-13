@@ -9,16 +9,15 @@
     margin: 20px auto;
     width: 428px;
     border: solid 1px #333;
-    background: #efefef;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 #mainContent {
-        display: grid;
-        grid-template-columns: repeat(4, 85px);
-        grid-column-gap: 16px;
-        padding-left: 20px;
-        padding-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .col-span-1	{grid-column: span 1 / span 1;}
@@ -41,3 +40,58 @@ img {
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+h2 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+#article-one {
+    position: relative;
+    height: 340px;
+}
+
+#article-one-img {
+    background-image: url(../images/bottle_nature.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 35%;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#article-one-heading {
+    font-size: 80px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+#article-one-text {
+    margin-top: 0px;
+}
+
+#article-two-body::first-letter {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    line-height: 25.6px;
+    font-weight: 350;
+}
+
+#article-two-body {
+    margin-top: 30px;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.underline {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+}
+
