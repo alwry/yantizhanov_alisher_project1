@@ -12,12 +12,13 @@
     border-radius: 20px;
 }
 
-#mainContent {
+.grid-con {
     display: grid;
     grid-template-columns: repeat(4, 85px);
     grid-column-gap: 16px;
     padding-left: 20px;
     padding-right: 20px;
+    margin: 50px auto;
 }
 
 .col-span-1	{grid-column: span 1 / span 1;}
@@ -56,6 +57,10 @@ p {
     height: 340px;
 }
 
+#article-two {
+    height: 400px;
+}
+
 #article-one-img {
     background-image: url(../images/bottle_nature.jpg);
     background-size: cover;
@@ -66,13 +71,24 @@ p {
 }
 
 #article-one-heading {
-    font-size: 80px;
+    font-size: 72px;
+    letter-spacing: 7px;
     margin-bottom: -20px;
     margin-top: 20px;
+    color: #FD7400;
 }
 
 #article-one-text {
     margin-top: 0px;
+}
+
+#article-two-img {
+    background-image: url(../images/bottle_tennis.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 49%;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 #article-two-body::first-letter {
@@ -80,6 +96,7 @@ p {
     font-size: 48px;
     line-height: 25.6px;
     font-weight: 350;
+    color: #FD7400;
 }
 
 #article-two-body {
@@ -88,10 +105,16 @@ p {
 
 .bold {
     font-weight: 800;
+    color: #FD7400;
 }
 
 .underline {
-    border-bottom: 1px solid black;
-    padding-bottom: 3px;
+    text-decoration: underline;
+}
+
+#article-three-img {
+    background-image: url(../images/dudewithmilk.jpg);
+    background-size: cover;
+    border-radius: 10px;
 }
 
