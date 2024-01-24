@@ -18,7 +18,7 @@
     grid-column-gap: 16px;
     padding-left: 20px;
     padding-right: 20px;
-    margin: 50px auto;
+    margin: 10px auto;
 }
 
 .col-span-1	{grid-column: span 1 / span 1;}
@@ -35,6 +35,7 @@
 
 article {
     grid-column: 1/-1;
+
 }
 
 img {
@@ -42,8 +43,16 @@ img {
     margin-bottom: 30px;
 }
 
-h2 {
+h2, h3 {
     font-family: "Josefin Sans", sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 0px;
+
+    color: #FD7400;
 }
 
 p {
@@ -52,21 +61,12 @@ p {
     font-size: 16px;
 }
 
-#article-one {
-    position: relative;
-    height: 340px;
-}
-
-#article-two {
-    height: 400px;
-}
-
 #article-one-img {
     background-image: url(../images/bottle_nature.jpg);
     background-size: cover;
     background-position: center;
-    height: 35%;
-    margin-top: 20px;
+    height: 30vh;
+    margin-top: 10px;
     border-radius: 10px;
 }
 
@@ -86,7 +86,7 @@ p {
     background-image: url(../images/bottle_tennis.jpg);
     background-size: cover;
     background-position: center;
-    height: 49%;
+    height: 20vh;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -117,4 +117,44 @@ p {
     background-size: cover;
     border-radius: 10px;
 }
+
+#article-four-body {
+    margin-top: 5px;
+}
+
+#article-four-img {
+    height: 20vh;
+    background-image: url(../images/cyclist.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#article-five h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#flavors {
+    font-size: 50px;
+    line-height: 1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#article-five-img {
+    background-image: url(../images/bottles_board.jpg);
+    background-size: cover;
+    background-position: 10px;
+    border-radius: 10px;
+}
+
+#article-seven-img {
+    background-image: url(../images/football.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 
